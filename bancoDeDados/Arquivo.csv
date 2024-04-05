@@ -1,0 +1,101 @@
+id,nome,tipo,quantidade,valor_unitario
+1,Caneta,Burocrático,100,1.50
+2,Caderno,Escolar,50,3.99
+3,Lápis,Burocrático,200,0.99
+4,Borracha,Escolar,80,0.75
+5,Régua,Escolar,30,1.25
+6,Apontador,Burocrático,50,1.20
+7,Estojo,Escolar,40,2.50
+8,Mochila,Escolar,20,15.99
+9,Livro,Didático,70,12.50
+10,Agenda,Organizacional,60,5.99
+11,Calculadora,Científica,15,19.99
+12,Compasso,Escolar,25,2.75
+13,Marca-texto,Burocrático,40,1.99
+14,Tesoura,Escolar,35,3.49
+15,Cola,Escolar,60,1.99
+16,Clips,Burocrático,200,0.25
+17,Envelope,Burocrático,100,0.10
+18,Pasta,Organizacional,45,2.99
+19,Caneta Marca-texto,Burocrático,30,2.49
+20,Fita Adesiva,Escolar,25,0.99
+21,Corretivo,Burocrático,50,1.75
+22,Papel A4,Escolar,150,4.50
+23,Grampo,Organizacional,80,0.15
+24,Etiquetas,Burocrático,40,1.49
+25,Esquadro,Escolar,20,2.99
+26,Tinta para Impressora,Burocrático,30,9.99
+27,Lápis de Cor,Escolar,100,6.99
+28,Caixa de Lápis de Cor,Escolar,10,12.99
+29,Apagador,Escolar,30,2.25
+30,Quadro Branco,Escolar,15,19.99
+31,Marcador de Quadro Branco,Escolar,25,1.49
+32,Caneta Esferográfica,Burocrático,120,0.50
+33,Bolsa Térmica,Organizacional,10,29.99
+34,Prancheta,Escolar,20,6.99
+35,Agulha,Organizacional,150,0.05
+36,Linha,Organizacional,200,0.10
+37,Tesoura de Precisão,Burocrático,15,4.99
+38,Estilete,Burocrático,30,3.25
+39,Folha de Sulfite,Escolar,500,0.15
+40,Estojo de Pincéis,Escolar,15,9.99
+41,Pincel,Escolar,40,1.99
+42,Caderno de Desenho,Escolar,25,7.50
+43,Tesoura Escolar,Escolar,30,1.99
+44,Borracha de Ponta,Escolar,40,0.99
+45,Apagador de Quadro Branco,Escolar,20,4.99
+46,Clips Colorido,Organizacional,100,0.20
+47,Pasta Suspensa,Organizacional,30,4.25
+48,Porta-Canetas,Organizacional,25,2.99
+49,Calculadora Financeira,Científica,10,39.99
+50,Agenda Eletrônica,Organizacional,5,49.99
+51,Arroz,Grãos,100,4.99
+52,Feijão,Grãos,80,6.99
+53,Açúcar,Grãos,120,3.49
+54,Café,Grãos,50,8.99
+55,Sal,Condimento,150,1.49
+56,Óleo de Soja,Óleo,40,5.99
+57,Milho Verde,Enlatado,70,2.29
+58,Ervilha,Enlatado,60,1.99
+59,Molho de Tomate,Enlatado,90,3.49
+60,Extrato de Tomate,Enlatado,40,2.99
+61,Macarrão,Massa,100,2.49
+62,Farinha de Trigo,Grãos,80,3.99
+63,Leite em Pó,Lácteo,30,10.99
+64,Achocolatado em Pó,Lácteo,50,5.49
+65,Leite Condensado,Lácteo,60,3.99
+66,Creme de Leite,Lácteo,40,2.49
+67,Margarina,Lácteo,50,2.99
+68,Queijo Mussarela,Lácteo,30,15.99
+69,Presunto,Friossos,25,12.99
+70,Linguiça,Embutidos,40,7.49
+71,Salsicha,Embutidos,50,4.99
+72,Bacon,Embutidos,35,9.99
+73,Peito de Frango,Carne,60,8.49
+74,Carne Moída,Carne,70,9.99
+75,Lombo Suíno,Carne,40,13.99
+76,Carne de Panela,Carne,30,11.99
+77,Peixe Fresco,Peixe,20,17.99
+78,Atum Enlatado,Peixe,40,4.99
+79,Salmão Fresco,Peixe,15,24.99
+80,Camarão Congelado,Frutos do Mar,25,29.99
+81,Polpa de Fruta Congelada,Frutas,50,6.99
+82,Suco de Fruta,Frutas,80,3.49
+83,Geleia de Fruta,Frutas,40,4.99
+84,Compota de Frutas,Frutas,30,5.49
+85,Biscoitos,Snacks,70,3.99
+86,Torradas,Snacks,60,2.49
+87,Pipoca,Snacks,50,1.99
+88,Cereal Matinal,Cereais,40,5.49
+89,Granola,Cereais,35,6.99
+90,Chá,Chá,50,4.99
+91,Refrigerante,Refrigerante,80,2.99
+92,Suco de Caixinha,Refrigerante,60,2.49
+93,Água Mineral,Água,100,1.49
+94,Cerveja,Álcool,120,2.99
+95,Vinho Tinto,Álcool,50,12.99
+96,Vodka,Álcool,30,19.99
+97,Whisky,Álcool,25,39.99
+98,Tequila,Álcool,20,29.99
+99,Limão,Frutas,70,0.99
+100,Cebola,Verduras,90,1.49
