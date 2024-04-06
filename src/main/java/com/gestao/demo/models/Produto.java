@@ -26,10 +26,6 @@ public class Produto {
         this.categoria = categoria;
     }
 
-    public Double getPreco() {
-        return preco;
-    }
-
     public void setPreco(Double preco) {
         this.preco = preco;
     }
@@ -59,10 +55,7 @@ public class Produto {
     }
 
     public Double getpreco() {
-        return preco;
+        return this.preco;
     }
 
-    public void setpreco(Double valor_uni) {
-        this.preco = valor_uni;
-    }
 }
