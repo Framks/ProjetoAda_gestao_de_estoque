@@ -58,4 +58,9 @@ public class ServiceProduto {
         List<Produto> produtos = this.repositoryProduto.list();
         return produtos.stream().mapToDouble(Produto::getpreco).average().orElse(0.0);
     }
+
+    public List<Produto> quantidadeBaixa(){
+        List<Produto> produtos = this.repositoryProduto.list();
+        return produtos.stream().filter(produto -> produto.getQuantidade() <= 3).toList();
+    }
 }

@@ -15,24 +15,24 @@ id,nome,tipo,quantidade,valor_unitario
 14,Tesoura,Escolar,35,3.49
 15,Cola,Escolar,60,1.99
 16,Clips,Burocrático,200,0.25
-17,Envelope,Burocrático,100,0.10
+17,Envelope,Burocrático,1,0.10
 18,Pasta,Organizacional,45,2.99
 19,Caneta Marca-texto,Burocrático,30,2.49
-20,Fita Adesiva,Escolar,25,0.99
+20,Fita Adesiva,Escolar,2,0.99
 21,Corretivo,Burocrático,50,1.75
 22,Papel A4,Escolar,150,4.50
 23,Grampo,Organizacional,80,0.15
 24,Etiquetas,Burocrático,40,1.49
-25,Esquadro,Escolar,20,2.99
-26,Tinta para Impressora,Burocrático,30,9.99
-27,Lápis de Cor,Escolar,100,6.99
+25,Esquadro,Escolar,2,2.99
+26,Tinta para Impressora,Burocrático,3,9.99
+27,Lápis de Cor,Escolar,1,6.99
 28,Caixa de Lápis de Cor,Escolar,10,12.99
-29,Apagador,Escolar,30,2.25
+29,Apagador,Escolar,2,2.25
 30,Quadro Branco,Escolar,15,19.99
-31,Marcador de Quadro Branco,Escolar,25,1.49
-32,Caneta Esferográfica,Burocrático,120,0.50
-33,Bolsa Térmica,Organizacional,10,29.99
-34,Prancheta,Escolar,20,6.99
+31,Marcador de Quadro Branco,Escolar,2,1.49
+32,Caneta Esferográfica,Burocrático,1,0.50
+33,Bolsa Térmica,Organizacional,1,29.99
+34,Prancheta,Escolar,2,6.99
 35,Agulha,Organizacional,150,0.05
 36,Linha,Organizacional,200,0.10
 37,Tesoura de Precisão,Burocrático,15,4.99

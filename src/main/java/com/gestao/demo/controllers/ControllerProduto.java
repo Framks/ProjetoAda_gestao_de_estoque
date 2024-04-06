@@ -40,4 +40,9 @@ public class ControllerProduto {
     public Integer quantidaDCategoria(){
         return this.serviceProduto.qtdDeCat();
     }
+
+    @GetMapping("/quantidadeBaixa")
+    public List<Produto> quantidadeBaixa(){
+        return this.serviceProduto.quantidadeBaixa();
+    }
 }
