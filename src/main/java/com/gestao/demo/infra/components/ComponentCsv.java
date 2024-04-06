@@ -1,33 +1,48 @@
 package com.gestao.demo.infra.components;
 
+import com.gestao.demo.infra.repositorys.LerCsv;
 import com.gestao.demo.infra.repositorys.RepositoryProduto;
+import com.gestao.demo.models.Produto;
 import jakarta.annotation.PostConstruct;
-import jakarta.annotation.PreDestroy;
 import org.springframework.stereotype.Component;
+
+import java.io.IOException;
 
 @Component
 public class ComponentCsv {
+
     private final RepositoryProduto repositoryProduto;
-    private final Thread thread;
+    private final LerCsv lerCsv;
+
+    private Runnable executador;
 
     public ComponentCsv(RepositoryProduto repositoryProduto){
         this.repositoryProduto = repositoryProduto;
-        this.thread = new Thread(new Runnable() {
+        this.lerCsv = new LerCsv("");
+
+        executador = new Runnable() {
             @Override
             public void run() {
-
+                try {
+                    lerCsv.getList().forEach(x -> repositoryProduto.insert(
+                            new Produto(
+                                    Long.parseLong(x.get(1)),
+                                    x.get(2),
+                                    x.get(3),
+                                    Integer.parseInt(x.get(4)),
+                                    Double.parseDouble(x.get(5)))
+                            )
+                    );
+                } catch (IOException e) {
+                    System.out.println("error ao ler o arquivo ou ao inserir no banco de dados: "+e.getMessage());
+                }
             }
-        });
-
+        };
     }
 
     @PostConstruct
-    public void init(){
-        thread.run();
+    public void run(){
+        executador.run();
     }
 
-    @PreDestroy
-    public void stop(){
-
-    }
 }
