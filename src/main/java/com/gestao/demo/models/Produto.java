@@ -4,16 +4,34 @@ package com.gestao.demo.models;
 public class Produto {
     private Long id;
     private String nome;
+    private String categoria;
     private Integer quantidade;
     private Double preco;
 
     public Produto(){
     }
-    public Produto(Long id, String nome, Integer qtd, Double valor_uni) {
+    public Produto(Long id, String nome, String categoria, Integer quantidade, Double preco) {
         this.id = id;
         this.nome = nome;
-        this.quantidade = qtd;
-        this.preco = valor_uni;
+        this.categoria = categoria;
+        this.quantidade = quantidade;
+        this.preco = preco;
+    }
+
+    public String getCategoria() {
+        return categoria;
+    }
+
+    public void setCategoria(String categoria) {
+        this.categoria = categoria;
+    }
+
+    public Double getPreco() {
+        return preco;
+    }
+
+    public void setPreco(Double preco) {
+        this.preco = preco;
     }
 
     public Long getId() {
