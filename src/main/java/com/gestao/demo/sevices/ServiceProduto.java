@@ -52,6 +52,7 @@ public class ServiceProduto {
     }
 
     public Double qtdMedPorPro(){
-        return null;
+        List<Produto> produtos = this.repositoryProduto.list();
+        return produtos.stream().mapToDouble(Produto::getpreco).average().orElse(0.0);
     }
 }
