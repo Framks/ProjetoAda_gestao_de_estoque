@@ -16,13 +16,13 @@ public class RepositoryProduto {
     }
 
     public List<Produto> list() {
-        String sql = "SELECT * FROM produtos";
+        String sql = "SELECT * FROM produto";
         RowMapper<Produto> rowMapper = ((rs, rowNum) ->
                 new Produto(rs.getLong("id"),
                         rs.getString("nome"),
                         rs.getString("categoria"),
                         rs.getInt("quantidade"),
-                        rs.getDouble("preso")
+                        rs.getDouble("preco")
                 )
         );
         return this.jdbcTemplate.query(sql,rowMapper);
