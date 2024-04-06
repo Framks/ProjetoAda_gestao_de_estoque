@@ -18,7 +18,7 @@ public class ComponentCsv {
 
     public ComponentCsv(RepositoryProduto repositoryProduto){
         this.repositoryProduto = repositoryProduto;
-        this.lerCsv = new LerCsv("");
+        this.lerCsv = new LerCsv("bancoDeDados/Arquivo.csv");
 
         executador = new Runnable() {
             @Override
@@ -26,11 +26,11 @@ public class ComponentCsv {
                 try {
                     lerCsv.getList().forEach(x -> repositoryProduto.insert(
                             new Produto(
-                                    Long.parseLong(x.get(1)),
+                                    Long.parseLong(x.get(0)),
+                                    x.get(1),
                                     x.get(2),
-                                    x.get(3),
-                                    Integer.parseInt(x.get(4)),
-                                    Double.parseDouble(x.get(5)))
+                                    Integer.parseInt(x.get(3)),
+                                    Double.parseDouble(x.get(4)))
                             )
                     );
                 } catch (IOException e) {
