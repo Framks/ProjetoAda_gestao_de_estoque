@@ -44,13 +44,19 @@ public class ServiceProduto {
 
     public HashMap<String, Double> valorMedioPorCategoria(){
         HashMap<String, Double> vaMePoCat = new HashMap<>();
-        return null;
+        List<Produto> produtos = this.repositoryProduto.list();
+        Set<String> categorias = new HashSet<>();
+        produtos.forEach(produto -> categorias.add(produto.getCategoria()));
+        for (String cat : categorias){
+            vaMePoCat.put(cat,produtos.stream().filter(produto -> cat.contains(produto.getCategoria())).mapToDouble(p -> p.getpreco()).average().orElse(0.0));
+        }
+        return vaMePoCat;
     }
 
     public Integer qtdDeCat(){
         List<Produto> produtos = this.repositoryProduto.list();
         Set<String> categorias = new HashSet<>();
-        produtos.stream().filter(produto -> !categorias.contains(produto.getCategoria())).forEach(produto -> categorias.add(produto.getCategoria()));
+        produtos.forEach(produto -> categorias.add(produto.getCategoria()));
         return categorias.size();
     }
 
