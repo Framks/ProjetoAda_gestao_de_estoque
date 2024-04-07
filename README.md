@@ -1,55 +1,56 @@
-# Projeto de Técnicas de programação: AdaTech
+# Projeto de Técnicas de Programação: AdaTech
 
-Este projeto visa utilizarmos o lambda, threads e técnicas de que estudamos no módulo 4 do Santander bootcamp com Adatech, carreira Desenvolvimento Back-end.
+Este projeto tem como objetivo a aplicação de conceitos como lambda, threads e técnicas estudadas no módulo 4 do Santander Bootcamp com AdaTech, na carreira de Desenvolvimento Back-end.
 
-O projeto consiste em ler um arquivo CSV(Comma-separated values) valores separados por virgula, fazer a inserção dos dados no PostgreSQL e permitir a leitura desses dados.
+O projeto consiste em ler um arquivo CSV (Comma-separated values), realizar a inserção dos dados no PostgreSQL e possibilitar a leitura desses dados.
 
-### 1 INICIALIZAR O CONTAINER DO POSTGRES
+----
+### 1. INICIALIZAR O CONTAINER DO POSTGRES
 
-Para iniciar o container do postgres e olhar a configuração entre em:
+Para inicializar o container do PostgreSQL e conferir as configurações, consulte:
 [bancoDeDados/README.md](/bancoDeDados/README.md)
 
-## 2 INICIAR A APLICAÇÃO SPRING
+----
+### 2. INICIAR A APLICAÇÃO SPRING
 
-Em seu ambiaente de desenvolvimento inicialize a aplicação do spring
-ao iniciar o programa fara a leitura do arquivo e fara a inserção de dados no banco de dados.
-Apos isso é só utilizar no browser ou POSTMAN ( ![Pagina de download do postman](https://www.postman.com/downloads/))
+No seu ambiente de desenvolvimento, inicialize a aplicação Spring. Ao iniciar o programa, será feita a leitura do arquivo e a inserção dos dados no banco de dados. Após isso, basta acessar através do browser ou do Postman ([Página de download do Postman](https://www.postman.com/downloads/)).
 
-## 3 UTILIZAÇÃO DA API
+----
+### 3. UTILIZAÇÃO DA API
 
-esta é uma API simples que para o ambito desta atividade, portanto só tera metodos GET
-a aplicação pode ser acessada por meio dos comandos:
+Esta é uma API simples criada para o escopo desta atividade, portanto, contém apenas métodos GET. A aplicação pode ser acessada pelos seguintes comandos:
 
-Pegar todos os dados: 
+- Pegar todos os dados:
 ```
 localhost:8080/tudo
 ```
 
-Buscar a quantidade de produtos cadastrados em cada categoria:
+- Buscar a quantidade de produtos cadastrados em cada categoria:
 ```
 localhost:8080/quantidadeDeProdutoPorCategoria
 ```
 
-Buscar o valor medio dos produtos para cada categoria:
+- Buscar o valor médio dos produtos para cada categoria:
 ```
 localhost:8080/valorMedioPorCategoria
 ```
 
-Buscar o valor medio de todos os produtos: 
+- Buscar o valor médio de todos os produtos:
 ```
 localhost:8080/valorMedioDosProdutos
 ```
 
-Buscar a quantidade de categorias que existem no sistema:
+- Buscar a quantidade de categorias existentes no sistema:
 ```
 localhost:8080/quantidadeDeCategoria
 ```
 
-Buscar a lista de produtos que estão com a quantidade igual ou abaixo de 3:
+- Buscar a lista de produtos que estão com a quantidade igual ou abaixo de 3:
 ```
 localhost:8080/quantidadeBaixa
 ```
 
+----
 ## Versões:
 - Java 21;
 - Spring Boot 3.2.4;
