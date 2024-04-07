@@ -22,32 +22,32 @@ a aplicação pode ser acessada por meio dos comandos:
 
 Pegar todos os dados: 
 ```
-/tudo
+localhost:8080/tudo
 ```
 
 Buscar a quantidade de produtos cadastrados em cada categoria:
 ```
-/quantidadeDeProdutoPorCategoria
+localhost:8080/quantidadeDeProdutoPorCategoria
 ```
 
 Buscar o valor medio dos produtos para cada categoria:
 ```
-/valorMedioPorCategoria
+localhost:8080/valorMedioPorCategoria
 ```
 
 Buscar o valor medio de todos os produtos: 
 ```
-/valorMedioDosProdutos
+localhost:8080/valorMedioDosProdutos
 ```
 
 Buscar a quantidade de categorias que existem no sistema:
 ```
-/quantidadeDeCategoria
+localhost:8080/quantidadeDeCategoria
 ```
 
 Buscar a lista de produtos que estão com a quantidade igual ou abaixo de 3:
 ```
-/quantidadeBaixa
+localhost:8080/quantidadeBaixa
 ```
 
 ## Versões:

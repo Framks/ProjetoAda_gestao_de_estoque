@@ -1,6 +1,7 @@
 # Banco de dados
 
 aqui ficara todos os arquivos correspondentes do banco de dados inclusive o container do postgresql que sera o banco de dados utilizado no projeto.
+Para esse projeto é necesário ter instalado no seu computardor o docker (![pagina de download](https://www.docker.com/get-started/)).
 
 ## 1 docker-compose.yml:
 ```
@@ -10,7 +11,7 @@ Configuração:
   password: 1234
   database_name: estoque
 ```
-para suber o postegres execute o seguinte comando dentro da pasta onde esta o docker-compose.yml
+para subir o postegres execute o seguinte comando dentro da pasta onde esta o docker-compose.yml
 ```bash
 docker-compose up
 ```
